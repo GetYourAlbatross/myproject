@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student_Phase_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Student Phase 1</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+                <label>Start Date</label>
+            </value>
+            <value>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 1 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 2 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 3 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 4 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 5 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+                <label>Module 5a Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 6 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 7 Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+                <label>Module 7a Completion Date</label>
+            </value>
+            <value>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+                <label>Module 8 Completion Date</label>
+            </value>
+            <value>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+                <label>ASIST Tune-up Completion Date</label>
+            </value>
+            <value>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+                <label>Assessment Completed Date</label>
+            </value>
+            <value>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+                <label>Mental Health First Aid Completed Date</label>
+            </value>
+            <value>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+                <label>Phase 1 Closure Completed Date</label>
+            </value>
+            <value>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+                <label>Group Supervision Completed Date</label>
+            </value>
+            <value>
+                <fullName>Orientation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Orientation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

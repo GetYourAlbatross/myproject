@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Role_requires_Start_Date</fullName>
+    <active>true</active>
+    <description>If the role is set to current then start date must be specified</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status__c, &quot;Current&quot;), NOT(RecordType.Name=&quot;TCS Applicant&quot;), ISBLANK(Start_Date__c))</errorConditionFormula>
+    <errorDisplayField>Start_Date__c</errorDisplayField>
+    <errorMessage>Please specify start date</errorMessage>
+</ValidationRule>

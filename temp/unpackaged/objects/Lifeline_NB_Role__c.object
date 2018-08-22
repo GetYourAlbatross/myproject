@@ -1,0 +1,4954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>CSWT_Student_Phase_11</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>ASIST_tune_up_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ASIST tune-up Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Accreditation_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Accreditation Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Accreditation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Accreditation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Application_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Received Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Application_Sent_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Sent Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Application_Sent__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Sent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Not Received</fullName>
+                    <default>false</default>
+                    <label>Not Received</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Assessed_Shift_Completions_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessed Shift Completions Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assessment_Gateway_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessment Gateway Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assessment_Gateway__c</fullName>
+        <externalId>false</externalId>
+        <label>Assessment Gateway</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accept</fullName>
+                    <default>false</default>
+                    <label>Accept</label>
+                </value>
+                <value>
+                    <fullName>Decline</fullName>
+                    <default>false</default>
+                    <label>Decline</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coach_2_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Coach 2 Name</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coach_3_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Coach 3 Name</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coach_4_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Coach 4 Name</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coach_Name_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Coach Name 1</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Coaching_Call_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Coaching Call 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Coaching_Call_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Coaching Call 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Coaching_Call_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Coaching Call 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Coaching_Call_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Coaching Call 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Commitment_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Commitment Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Completed_GS_points__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed GS points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completed_ISS_Shift_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed ISS Shift Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completed_TCS_PD_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed TCS PD Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completed_TCS_Training_pts__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed TCS PD Points</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Course_Fee_Paid__c</fullName>
+        <externalId>false</externalId>
+        <label>Course Fee Paid</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Disclosure_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Disclosure Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exceptional_Circumstances_details__c</fullName>
+        <externalId>false</externalId>
+        <label>Exceptional Circumstances details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Fit_to_Work_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Fit to Work Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fit_to_Work_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Fit to Work Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Full Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hour_Until_Accreditation__c</fullName>
+        <externalId>false</externalId>
+        <label>Hour Until Accreditation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Induction__c</fullName>
+        <externalId>false</externalId>
+        <label>Induction</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Information_Evening_Attended_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Information Evening Attended Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Information_Evening__c</fullName>
+        <externalId>false</externalId>
+        <label>Information Evening</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attended</fullName>
+                    <default>false</default>
+                    <label>Attended</label>
+                </value>
+                <value>
+                    <fullName>Attended and Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Attended and Withdrawn</label>
+                </value>
+                <value>
+                    <fullName>Not Attended</fullName>
+                    <default>false</default>
+                    <label>Not Attended</label>
+                </value>
+                <value>
+                    <fullName>Not Attended and Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Not Attended and Withdrawn</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Interview_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Interview Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Interview_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Interview Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Interview__c</fullName>
+        <externalId>false</externalId>
+        <label>Interview</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Not Accepted</fullName>
+                    <default>false</default>
+                    <label>Not Accepted</label>
+                </value>
+                <value>
+                    <fullName>Deferred</fullName>
+                    <default>false</default>
+                    <label>Deferred</label>
+                </value>
+                <value>
+                    <fullName>Declined</fullName>
+                    <default>false</default>
+                    <label>Declined</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Job_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LLN_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>LLN Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Volunteer__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Letter_of_Offer_Sent_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Letter of Offer Sent Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_1_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Applied Suicide Intervention Skills Training (ASIST). If you cannot do ASIST you can not proceed through the training.</inlineHelpText>
+        <label>Module 1 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_2_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 2 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_3_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 3 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_4_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 4 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_5_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 5 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_5a_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 5a Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_6_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 6 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_7_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 7 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_7a_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 7a Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Module_8_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Module 8 Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Lifeline NB Roles (Name)</relationshipLabel>
+        <relationshipName>Lifeline_NB_Roles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name_hidden__c</fullName>
+        <externalId>false</externalId>
+        <label>Name (hidden)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Observation_Shift__c</fullName>
+        <externalId>false</externalId>
+        <label>Observation Shift</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Online_Training__c</fullName>
+        <externalId>false</externalId>
+        <label>Online Training</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Orientation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Orientation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Required_ISS_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Required ISS Hours</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Required_TCS_Prof_Dev_Points__c</fullName>
+        <externalId>false</externalId>
+        <label>Required TCS Prof. Dev. Points</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resignation_Termination_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Resignation Termination Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Retail_Outlet__c</fullName>
+        <externalId>false</externalId>
+        <label>Retail Outlet</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Avalon Shop</fullName>
+                    <default>false</default>
+                    <label>Avalon Shop</label>
+                </value>
+                <value>
+                    <fullName>Balgowlah Shop</fullName>
+                    <default>false</default>
+                    <label>Balgowlah Shop</label>
+                </value>
+                <value>
+                    <fullName>Cremorne Shop</fullName>
+                    <default>false</default>
+                    <label>Cremorne Shop</label>
+                </value>
+                <value>
+                    <fullName>Dee Why Shop</fullName>
+                    <default>false</default>
+                    <label>Dee Why Shop</label>
+                </value>
+                <value>
+                    <fullName>Forestville Shop</fullName>
+                    <default>false</default>
+                    <label>Forestville Shop</label>
+                </value>
+                <value>
+                    <fullName>Manly Shop</fullName>
+                    <default>false</default>
+                    <label>Manly Shop</label>
+                </value>
+                <value>
+                    <fullName>Mona Vale Shop</fullName>
+                    <default>false</default>
+                    <label>Mona Vale Shop</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Role Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Current</fullName>
+                    <default>false</default>
+                    <label>Current</label>
+                </value>
+                <value>
+                    <fullName>Former</fullName>
+                    <default>true</default>
+                    <label>Former</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Book Depot</fullName>
+                    <default>false</default>
+                    <label>Book Depot</label>
+                </value>
+                <value>
+                    <fullName>Retail, Fundraising</fullName>
+                    <default>false</default>
+                    <label>Retail, Fundraising</label>
+                </value>
+                <value>
+                    <fullName>TCS</fullName>
+                    <default>false</default>
+                    <label>TCS</label>
+                </value>
+                <value>
+                    <fullName>Office</fullName>
+                    <default>false</default>
+                    <label>Office</label>
+                </value>
+                <value>
+                    <fullName>Clinical Counsellor</fullName>
+                    <default>false</default>
+                    <label>Clinical Counsellor</label>
+                </value>
+                <value>
+                    <fullName>Community Aid</fullName>
+                    <default>false</default>
+                    <label>Community Aid</label>
+                </value>
+                <value>
+                    <fullName>Financial Counsellor</fullName>
+                    <default>false</default>
+                    <label>Financial Counsellor</label>
+                </value>
+                <value>
+                    <fullName>CS</fullName>
+                    <default>false</default>
+                    <label>CS</label>
+                </value>
+                <value>
+                    <fullName>CS &amp; ISS</fullName>
+                    <default>false</default>
+                    <label>CS &amp; ISS</label>
+                </value>
+                <value>
+                    <fullName>CS &amp; GF</fullName>
+                    <default>false</default>
+                    <label>CS &amp; GF</label>
+                </value>
+                <value>
+                    <fullName>CS &amp; GF &amp; ISS</fullName>
+                    <default>false</default>
+                    <label>CS &amp; GF &amp; ISS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service_December__c</fullName>
+        <defaultValue>Date(2016,12,31)</defaultValue>
+        <externalId>false</externalId>
+        <label>Service December</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Service_Delivery_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Delivery Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Trainer</fullName>
+                    <default>false</default>
+                    <label>Trainer</label>
+                </value>
+                <value>
+                    <fullName>Counsellor</fullName>
+                    <default>false</default>
+                    <label>Counsellor</label>
+                </value>
+                <value>
+                    <fullName>Community Visitors Scheme</fullName>
+                    <default>false</default>
+                    <label>Community Visitors Scheme</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service_up_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Service up to</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>31/12/2015</fullName>
+                    <default>false</default>
+                    <label>31/12/2015</label>
+                </value>
+                <value>
+                    <fullName>31/12/2016</fullName>
+                    <default>false</default>
+                    <label>31/12/2016</label>
+                </value>
+                <value>
+                    <fullName>31/12/2017</fullName>
+                    <default>false</default>
+                    <label>31/12/2017</label>
+                </value>
+                <value>
+                    <fullName>31/12/2018</fullName>
+                    <default>false</default>
+                    <label>31/12/2018</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Current</fullName>
+                    <default>true</default>
+                    <label>Current</label>
+                </value>
+                <value>
+                    <fullName>Former</fullName>
+                    <default>false</default>
+                    <label>Former</label>
+                </value>
+                <value>
+                    <fullName>On Leave</fullName>
+                    <default>false</default>
+                    <label>On Leave</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Student_Group_Supervision_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Group Supervision Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_Phase_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Phase 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Start Date</fullName>
+                    <default>false</default>
+                    <label>Start Date</label>
+                </value>
+                <value>
+                    <fullName>Module 1 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 1 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 2 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 2 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 3 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 3 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 4 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 4 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 5 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 5 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 5a Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 5a Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 6 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 6 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 7 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 7 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 7a Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 7a Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Module 8 Completion Date</fullName>
+                    <default>false</default>
+                    <label>Module 8 Completion Date</label>
+                </value>
+                <value>
+                    <fullName>ASIST Tune-up Completion Date</fullName>
+                    <default>false</default>
+                    <label>ASIST Tune-up Completion Date</label>
+                </value>
+                <value>
+                    <fullName>Assessment Completed Date</fullName>
+                    <default>false</default>
+                    <label>Assessment Completed Date</label>
+                </value>
+                <value>
+                    <fullName>Mental Health First Aid Completed Date</fullName>
+                    <default>false</default>
+                    <label>Mental Health First Aid Completed Date</label>
+                </value>
+                <value>
+                    <fullName>Phase 1 Closure Completed Date</fullName>
+                    <default>false</default>
+                    <label>Phase 1 Closure Completed Date</label>
+                </value>
+                <value>
+                    <fullName>Group Supervision Completed Date</fullName>
+                    <default>false</default>
+                    <label>Group Supervision Completed Date</label>
+                </value>
+                <value>
+                    <fullName>Orientation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Orientation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Student_Placement_Journal_Completed__c</fullName>
+        <externalId>false</externalId>
+        <label>Student Placement Journal Completed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Student_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status On Completion of Phase</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Not Completed</fullName>
+                    <default>false</default>
+                    <label>Not Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supervised_Shifts__c</fullName>
+        <externalId>false</externalId>
+        <label>Supervised Shifts (in hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TCS_Path__c</fullName>
+        <externalId>false</externalId>
+        <label>TCS Path</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TCS Applicant</fullName>
+                    <default>false</default>
+                    <label>TCS Applicant</label>
+                </value>
+                <value>
+                    <fullName>TCS Student Phase 1</fullName>
+                    <default>false</default>
+                    <label>TCS Student Phase 1</label>
+                </value>
+                <value>
+                    <fullName>TCS Student Phase 2</fullName>
+                    <default>false</default>
+                    <label>TCS Student Phase 2</label>
+                </value>
+                <value>
+                    <fullName>TCS Student Phase 3</fullName>
+                    <default>false</default>
+                    <label>TCS Student Phase 3</label>
+                </value>
+                <value>
+                    <fullName>TCS Accredited</fullName>
+                    <default>false</default>
+                    <label>TCS Accredited</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TCS_Required_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>TCS Required Hours</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Shift_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Total TCS Shift Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Volunteer_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Volunteer Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Board Member</fullName>
+                    <default>false</default>
+                    <label>Board Member</label>
+                </value>
+                <value>
+                    <fullName>Book Fair Volunteer</fullName>
+                    <default>false</default>
+                    <label>Book Fair Volunteer</label>
+                </value>
+                <value>
+                    <fullName>Book Room Volunteer</fullName>
+                    <default>false</default>
+                    <label>Book Room Volunteer</label>
+                </value>
+                <value>
+                    <fullName>Community Visitors Scheme</fullName>
+                    <default>false</default>
+                    <label>Community Visitors Scheme</label>
+                </value>
+                <value>
+                    <fullName>Events Volunteer</fullName>
+                    <default>false</default>
+                    <label>Events Volunteer</label>
+                </value>
+                <value>
+                    <fullName>Face to Face Counselling</fullName>
+                    <default>false</default>
+                    <label>Face to Face Counselling</label>
+                </value>
+                <value>
+                    <fullName>Financial Counselling</fullName>
+                    <default>false</default>
+                    <label>Financial Counselling</label>
+                </value>
+                <value>
+                    <fullName>Office Volunteer</fullName>
+                    <default>false</default>
+                    <label>Office Volunteer</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Retail Volunteer</fullName>
+                    <default>false</default>
+                    <label>Retail Volunteer</label>
+                </value>
+                <value>
+                    <fullName>Service Delivery</fullName>
+                    <default>false</default>
+                    <label>Service Delivery</label>
+                </value>
+                <value>
+                    <fullName>Support Group Facilitator</fullName>
+                    <default>false</default>
+                    <label>Support Group Facilitator</label>
+                </value>
+                <value>
+                    <fullName>TCS</fullName>
+                    <default>true</default>
+                    <label>TCS</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Warehouse Volunteer</fullName>
+                    <default>false</default>
+                    <label>Warehouse Volunteer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Volunteer__c</fullName>
+        <externalId>false</externalId>
+        <label>Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Lifeline NB Roles</relationshipLabel>
+        <relationshipName>Volunteer_Roles</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Wait_list_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Wait-list Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Wait-list</fullName>
+                    <default>false</default>
+                    <label>Wait-list</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Weekend_Shifts__c</fullName>
+        <externalId>false</externalId>
+        <label>Weekend Shifts (in hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Workbook_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Workbook Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Years_of_Service__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( OR ( MONTH ( Start_Date__c ) &gt; MONTH (TODAY()), AND( MONTH ( Start_Date__c ) = MONTH (TODAY()), DAY ( Start_Date__c ) &gt;= DAY (TODAY()+1))), YEAR (TODAY()) - YEAR ( Start_Date__c ) -1, YEAR (TODAY()) - YEAR ( Start_Date__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Years of Service</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>YoS__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(End_Date__c), 
+TEXT(Year( TODAY() )- Year( Start_Date__c )) &amp;&quot; &quot;&amp;&quot;years&quot;&amp;&quot; &quot;&amp; 
+TEXT(Month( TODAY() )-Month( Start_Date__c )) &amp;&quot; &quot;&amp;&quot;months&quot;&amp;&quot; &quot;&amp; 
+TEXT(Day( TODAY() )-Day( Start_Date__c ))&amp;&quot; &quot;&amp;&quot;days&quot;, 
+TEXT(Year( End_Date__c )- Year( Start_Date__c )) &amp;&quot; &quot;&amp;&quot;years&quot;&amp;&quot; &quot;&amp; 
+TEXT(Month( End_Date__c )-Month( Start_Date__c )) &amp;&quot; &quot;&amp;&quot;months&quot;&amp;&quot; &quot;&amp; 
+TEXT(Day( End_Date__c )-Day( Start_Date__c ))&amp;&quot; &quot;&amp;&quot;days&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>YoS</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>eLearning_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>eLearning Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Lifeline NB Role</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Last_Name__c</columns>
+        <columns>Volunteer__c</columns>
+        <columns>Name_hidden__c</columns>
+        <columns>Status__c</columns>
+        <columns>Volunteer_Type__c</columns>
+        <columns>Retail_Outlet__c</columns>
+        <columns>Full_Name__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CSWT_Applicants</fullName>
+        <columns>NAME</columns>
+        <columns>Volunteer__c</columns>
+        <columns>Application_Sent_Date__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Lifeline_NB_Role__c.TCS_Applicant</value>
+        </filters>
+        <label>CSWT Applicants</label>
+    </listViews>
+    <listViews>
+        <fullName>Current_TCS_Lifeline_Roles</fullName>
+        <columns>NAME</columns>
+        <columns>Volunteer__c</columns>
+        <columns>Volunteer_Type__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Current</value>
+        </filters>
+        <filters>
+            <field>Volunteer_Type__c</field>
+            <operation>equals</operation>
+            <value>TCS</value>
+        </filters>
+        <label>Current TCS Lifeline Roles</label>
+    </listViews>
+    <listViews>
+        <fullName>Status_Former_No_Volunteer_Type</fullName>
+        <columns>NAME</columns>
+        <columns>Volunteer__c</columns>
+        <columns>Last_Name__c</columns>
+        <columns>Volunteer_Type__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>End_Date__c</columns>
+        <columns>Retail_Outlet__c</columns>
+        <columns>Service_Delivery_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Lifeline_NB_Role__c.Volunteer</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Former</value>
+        </filters>
+        <filters>
+            <field>Volunteer_Type__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Status Former No Volunteer Type</label>
+    </listViews>
+    <nameField>
+        <displayFormat>LR-{000000}</displayFormat>
+        <label>Lifeline NB Role ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Lifeline NB Roles</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>CVS</fullName>
+        <active>true</active>
+        <description>A record CVS information</description>
+        <label>CVS</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Staff</fullName>
+        <active>true</active>
+        <description>A record of a paid staff member</description>
+        <label>Staff</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TCS_Accredited</fullName>
+        <active>true</active>
+        <description>A record of training and accreditation completed by an accredited TCS&apos;ers</description>
+        <label>TCS Accredited</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TCS_Applicant</fullName>
+        <active>true</active>
+        <description>A record for keeping track of a contact applying to be a TCS student</description>
+        <label>TCS Applicant</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TCS_Probationary</fullName>
+        <active>true</active>
+        <description>A record of training and accreditation for a TCS Student in Phase 3</description>
+        <label>TCS Probationary</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TCS_Student_Phase_1</fullName>
+        <active>true</active>
+        <description>A record of training and accreditation for a TCS Student in Phase 1</description>
+        <label>TCS Student Phase 1</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>TCS_Student_Phase_2</fullName>
+        <active>true</active>
+        <description>A record of training and accreditation for a TCS Student in Phase 2</description>
+        <label>TCS Student Phase 2</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Volunteer</fullName>
+        <active>true</active>
+        <description>A record of additional non-counselling/TCS roles that a volunteer has fulfilled</description>
+        <label>Other Volunteers</label>
+        <picklistValues>
+            <picklist>Application_Sent__c</picklist>
+            <values>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Assessment_Gateway__c</picklist>
+            <values>
+                <fullName>Accept</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Fit_to_Work_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Induction__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Information_Evening__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attended and Withdrawn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Interview__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Accepted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Online_Training__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retail_Outlet__c</picklist>
+            <values>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Description__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role_Type__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>Book Depot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 GF %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CS %26 ISS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Aid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail%2C Fundraising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Delivery_Type__c</picklist>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Counsellor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_up_to__c</picklist>
+            <values>
+                <fullName>31%2F12%2F2015</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2017</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>31%2F12%2F2018</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Current</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Former</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Phase_1__c</picklist>
+            <values>
+                <fullName>ASIST Tune-up Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assessment Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Supervision Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mental Health First Aid Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 1 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 2 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 3 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 4 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 5a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 6 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 7a Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Module 8 Completion Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phase 1 Closure Completed Date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Start Date</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Student_Status__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TCS_Path__c</picklist>
+            <values>
+                <fullName>TCS Accredited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS Student Phase 3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Volunteer_Type__c</picklist>
+            <values>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Fair Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Book Room Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community Visitors Scheme</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Face to Face Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Counselling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Volunteer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Group Facilitator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Wait_list_Status__c</picklist>
+            <values>
+                <fullName>Wait-list</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Volunteer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Current_Role_requires_Start_Date</fullName>
+        <active>true</active>
+        <description>If the role is set to current then start date must be specified</description>
+        <errorConditionFormula>AND(ISPICKVAL(Status__c, &quot;Current&quot;), NOT(RecordType.Name=&quot;TCS Applicant&quot;), ISBLANK(Start_Date__c))</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>Please specify start date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Former_Role_must_have_end_date</fullName>
+        <active>true</active>
+        <description>If role is marked former then end date should be specified.</description>
+        <errorConditionFormula>AND(ISPICKVAL(Status__c, &quot;Former&quot;), ISBLANK(End_Date__c))</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>End date must be specified</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>sidebar</openType>
+        <page>Mass_Delete_Lifeline_Role</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+    <webLinks>
+        <fullName>Mass_Edit</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Edit</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/apex.js&quot;)}
+var records = {!GETRECORDIDS($ObjectType.Lifeline_NB_Role__c)};
+var RecordIds=&apos;&apos;;
+if (records[0] == null)
+{
+alert(&apos;Please select a record&apos;);
+}
+else
+{
+for (var n=0; n&lt;records.length; n++)
+{
+if(RecordIds== &apos;&apos;)
+RecordIds= records[n];
+else
+RecordIds= RecordIds+ &quot;,&quot; + records[n] ;
+}
+window.location.href = &apos;/apex/Kcloud_Actions__MassEdit?SObject=Lifeline_NB_Role &apos;+&apos;&amp;ToEditIds=&apos;+RecordIds+ &apos;&amp;retURL=&apos;+ window.location.href;
+}</url>
+    </webLinks>
+</CustomObject>

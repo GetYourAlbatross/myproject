@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retail_Outlet__c</fullName>
+    <externalId>false</externalId>
+    <label>Retail Outlet</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Avalon Shop</fullName>
+                <default>false</default>
+                <label>Avalon Shop</label>
+            </value>
+            <value>
+                <fullName>Balgowlah Shop</fullName>
+                <default>false</default>
+                <label>Balgowlah Shop</label>
+            </value>
+            <value>
+                <fullName>Cremorne Shop</fullName>
+                <default>false</default>
+                <label>Cremorne Shop</label>
+            </value>
+            <value>
+                <fullName>Dee Why Shop</fullName>
+                <default>false</default>
+                <label>Dee Why Shop</label>
+            </value>
+            <value>
+                <fullName>Forestville Shop</fullName>
+                <default>false</default>
+                <label>Forestville Shop</label>
+            </value>
+            <value>
+                <fullName>Manly Shop</fullName>
+                <default>false</default>
+                <label>Manly Shop</label>
+            </value>
+            <value>
+                <fullName>Mona Vale Shop</fullName>
+                <default>false</default>
+                <label>Mona Vale Shop</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

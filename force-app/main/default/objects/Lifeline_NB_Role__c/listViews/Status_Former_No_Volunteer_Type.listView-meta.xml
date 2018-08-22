@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Former_No_Volunteer_Type</fullName>
+    <columns>NAME</columns>
+    <columns>Volunteer__c</columns>
+    <columns>Last_Name__c</columns>
+    <columns>Volunteer_Type__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Retail_Outlet__c</columns>
+    <columns>Service_Delivery_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lifeline_NB_Role__c.Volunteer</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Former</value>
+    </filters>
+    <filters>
+        <field>Volunteer_Type__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Status Former No Volunteer Type</label>
+</ListView>
