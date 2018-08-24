@@ -1,4 +1,4 @@
-public class recordtypeController {
+public class recordtypeAccountController {
     public static Map<Id, String> recordtypemap {get;set;}
 
    @AuraEnabled
