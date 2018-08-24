@@ -58,29 +58,29 @@
     [
         "C:\\projects\\myproject\\force-app\\main\\default\\aura",
         {
-            "state": "u",
             "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1535083235331,
-            "changeTime": 1535083235331,
-            "isWorkspace": false,
-            "contentHash": "d4fb687ebf54d101d9842095e630f555074cb7e2"
+            "modifiedTime": 1535004689784,
+            "changeTime": 1535004689784,
+            "contentHash": "f222439e2e14c1eb021dcc0f0ab42ae2b710d1a7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\projects\\myproject\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1535093818413,
-            "changeTime": 1535093818413,
-            "isWorkspace": false,
-            "contentHash": "2207c9ae13a046483328c5262acd0270f84d3b29"
+            "modifiedTime": 1535004902700,
+            "changeTime": 1535004902700,
+            "contentHash": "39301171906325367b81ef7775d3353d0508e769",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -39205,14 +39205,14 @@
     [
         "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType",
         {
-            "state": "u",
             "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1535084132072,
-            "changeTime": 1535084132072,
-            "contentHash": "d7b9c915c6d0748c35010e59909272cba5f93906"
+            "modifiedTime": 1535004864041,
+            "changeTime": 1535004864041,
+            "contentHash": "5312ecfa2614c14d2cb9d213058a2344ef78c3cc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -39263,6 +39263,19 @@
             "modifiedTime": 1535004800933,
             "changeTime": 1535004800935,
             "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.design",
+        {
+            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1535004814007,
+            "changeTime": 1535004814008,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -39382,292 +39395,6 @@
             "contentHash": "99062f52256f8103a0526f8d33672364a6704e2e",
             "isMetadataFile": true,
             "state": "u"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 0,
-            "modifiedTime": 1535084986385,
-            "changeTime": 1535084986385,
-            "contentHash": "0c30c2f62bc92904807cc2652eb595d1e080bbf9"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 0,
-            "modifiedTime": 1535084992178,
-            "changeTime": 1535084992178,
-            "contentHash": "da22ffbd033ec516f1d247ce4329ee7d6142e3df"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.auradoc",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.auradoc",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 209,
-            "modifiedTime": 1535083062379,
-            "changeTime": 1535083062379,
-            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.cmp",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.cmp",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 2244,
-            "modifiedTime": 1535095173492,
-            "changeTime": 1535095173492,
-            "contentHash": "ca5b6aa4274ab22efddcaa9869be59643a115247"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.cmp-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.cmp-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 255,
-            "modifiedTime": 1535083062365,
-            "changeTime": 1535083062365,
-            "contentHash": "a9245a99d565bd5ab8b991d20e52adee7ab5385d"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.css",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.css",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 10,
-            "modifiedTime": 1535083062370,
-            "changeTime": 1535083062370,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.svg",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordType.svg",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 661,
-            "modifiedTime": 1535083062374,
-            "changeTime": 1535083062374,
-            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeController.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeController.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 2548,
-            "modifiedTime": 1535084225138,
-            "changeTime": 1535084225138,
-            "contentHash": "0c27912a9bf5aa7ac0c0deb41418013589154156"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeHelper.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeHelper.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 45,
-            "modifiedTime": 1535083062369,
-            "changeTime": 1535083062369,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeRenderer.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customContactRecordType\\customContactRecordTypeRenderer.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 50,
-            "modifiedTime": 1535083062372,
-            "changeTime": 1535083062372,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.auradoc",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.auradoc",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 209,
-            "modifiedTime": 1535083235358,
-            "changeTime": 1535083235358,
-            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.cmp",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.cmp",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 2249,
-            "modifiedTime": 1535093886737,
-            "changeTime": 1535093886737,
-            "contentHash": "b9b6ffeb9e21607c268494ad15fb65d5638493c6"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.cmp-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.cmp-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 252,
-            "modifiedTime": 1535083235336,
-            "changeTime": 1535083235336,
-            "contentHash": "057c907c90846a925fa6eb8e73d01cfb6d3045e6"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.css",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.css",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 10,
-            "modifiedTime": 1535083235347,
-            "changeTime": 1535083235347,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.svg",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordType.svg",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 661,
-            "modifiedTime": 1535083235351,
-            "changeTime": 1535083235351,
-            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeController.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeController.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 2560,
-            "modifiedTime": 1535083287727,
-            "changeTime": 1535083287727,
-            "contentHash": "b4224288e8dcb8d5b95ad8924d9c9493b2cdb258"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeHelper.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeHelper.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 45,
-            "modifiedTime": 1535083235345,
-            "changeTime": 1535083235345,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeRenderer.js",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\aura\\customRoleRecordType\\customRoleRecordTypeRenderer.js",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 50,
-            "modifiedTime": 1535083235349,
-            "changeTime": 1535083235349,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeContactController.cls",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeContactController.cls",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 754,
-            "modifiedTime": 1535093718324,
-            "changeTime": 1535093718324,
-            "contentHash": "818e8711b661375ac8016dd0cbb6d85ec9bb1d38"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeContactController.cls-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeContactController.cls-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 205,
-            "modifiedTime": 1535093707558,
-            "changeTime": 1535093707558,
-            "contentHash": "d6b984f9b1d6b734de35bb7edab6bbd4c220fff8"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeRoleController.cls",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeRoleController.cls",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 775,
-            "modifiedTime": 1535093886735,
-            "changeTime": 1535093886735,
-            "contentHash": "4c31e77079bc6e02edb2567f7dcf4c8a19b406d9"
-        }
-    ],
-    [
-        "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeRoleController.cls-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "C:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeRoleController.cls-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 202,
-            "modifiedTime": 1535093818418,
-            "changeTime": 1535093818418,
-            "contentHash": "e57373a0b4064fa4fa71ae899483c0b74dabab8a"
         }
     ]
 ]
