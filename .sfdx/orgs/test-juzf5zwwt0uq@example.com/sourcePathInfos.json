@@ -58,29 +58,29 @@
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535004689784,
             "changeTime": 1535004689784,
-            "isWorkspace": false,
-            "contentHash": "f222439e2e14c1eb021dcc0f0ab42ae2b710d1a7"
+            "contentHash": "f222439e2e14c1eb021dcc0f0ab42ae2b710d1a7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535004902700,
             "changeTime": 1535004902700,
-            "isWorkspace": false,
-            "contentHash": "39301171906325367b81ef7775d3353d0508e769"
+            "contentHash": "39301171906325367b81ef7775d3353d0508e769",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -39153,14 +39153,14 @@
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 39530,
-            "modifiedTime": 1534853551479,
-            "changeTime": 1534853551479,
-            "contentHash": "d45873270c2d160b567188b253ef661982e7847c",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 39662,
+            "modifiedTime": 1535083977733,
+            "changeTime": 1535083977733,
+            "contentHash": "9577af26e061c9ce1b2cf9910cdfa61b87166fb1"
         }
     ],
     [
@@ -39179,14 +39179,14 @@
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\profiles",
         {
+            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1534853551479,
-            "changeTime": 1534853551479,
-            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 0,
+            "modifiedTime": 1535083977751,
+            "changeTime": 1535083977751,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
         }
     ],
     [
@@ -39205,157 +39205,196 @@
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1535004864041,
             "changeTime": 1535004864041,
-            "contentHash": "5312ecfa2614c14d2cb9d213058a2344ef78c3cc"
+            "contentHash": "5312ecfa2614c14d2cb9d213058a2344ef78c3cc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.auradoc",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.auradoc",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 209,
             "modifiedTime": 1535004715421,
             "changeTime": 1535004715422,
-            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e"
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.cmp",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2245,
             "modifiedTime": 1535004997803,
             "changeTime": 1535004997803,
-            "contentHash": "23430d64c5f3be120704cac6bac0175be8634508"
+            "contentHash": "23430d64c5f3be120704cac6bac0175be8634508",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 242,
             "modifiedTime": 1535004788990,
             "changeTime": 1535004788991,
-            "contentHash": "e4eb47b4d97e381d1f78e8643e850168a5ba0f0f"
+            "contentHash": "e4eb47b4d97e381d1f78e8643e850168a5ba0f0f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.css",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.css",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 10,
             "modifiedTime": 1535004800933,
             "changeTime": 1535004800935,
-            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703"
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.design",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.design",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 40,
             "modifiedTime": 1535004814007,
             "changeTime": 1535004814008,
-            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec"
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.svg",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordType.svg",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 661,
             "modifiedTime": 1535004827120,
             "changeTime": 1535004827120,
-            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4"
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeController.js",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2548,
             "modifiedTime": 1535004842118,
             "changeTime": 1535004842120,
-            "contentHash": "10bc37f5fedde79ec8340b36b50b421cf1e76a3f"
+            "contentHash": "10bc37f5fedde79ec8340b36b50b421cf1e76a3f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeHelper.js",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 45,
             "modifiedTime": 1535004853096,
             "changeTime": 1535004853098,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeRenderer.js",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\aura\\customAccountRecordType\\customAccountRecordTypeRenderer.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 50,
             "modifiedTime": 1535004864042,
             "changeTime": 1535004864042,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeAccountController.cls",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeAccountController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 757,
             "modifiedTime": 1535005095521,
             "changeTime": 1535005095521,
-            "contentHash": "5599ab5193455f765f5fa24b634e934d051e4029"
+            "contentHash": "5599ab5193455f765f5fa24b634e934d051e4029",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeAccountController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\classes\\recordtypeAccountController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 198,
             "modifiedTime": 1535004902700,
             "changeTime": 1535004902701,
-            "contentHash": "9bb73f3e2d1a7ac9fa385b49d8a31eacb3b3daad"
+            "contentHash": "9bb73f3e2d1a7ac9fa385b49d8a31eacb3b3daad",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 25577,
+            "modifiedTime": 1535083977629,
+            "changeTime": 1535083977629,
+            "contentHash": "7430afbc50842896fb59082109777a1c63fba327"
+        }
+    ],
+    [
+        "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 25239,
+            "modifiedTime": 1535083977648,
+            "changeTime": 1535083977648,
+            "contentHash": "99062f52256f8103a0526f8d33672364a6704e2e"
+        }
+    ],
+    [
+        "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\projects\\myproject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 25239,
+            "modifiedTime": 1535083977751,
+            "changeTime": 1535083977751,
+            "contentHash": "99062f52256f8103a0526f8d33672364a6704e2e"
         }
     ]
 ]
